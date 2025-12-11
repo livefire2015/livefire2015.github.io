@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Architecture Deep Dive: Building a Sub-Second Decision Engine"
-date: 2025-12-10
+date: 2023-06-10
 categories: [fintech, opa, payment-gateway]
 ---
 
-_This is **Part 3** of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2025-12-10-speed-vs-complexity %}), [Part 2]({% post_url 2025-12-10-enter-opa %}), [Part 4]({% post_url 2025-12-10-beyond-yes-no %}), [Part 5]({% post_url 2025-12-10-production-lessons %})._
+_This is **Part 3** of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2022-03-15-speed-vs-complexity %}), [Part 2]({% post_url 2022-09-20-enter-opa %}), [Part 4]({% post_url 2024-02-28-beyond-yes-no %}), [Part 5]({% post_url 2025-11-05-production-lessons %})._
 
-In the previous articles, we established the critical need for agile policy management in real-time payment gateways and introduced Open Policy Agent (OPA) as the transformative solution. Now, we delve into the architectural decisions and implementation details that allowed Torpago to build a high-performance, sub-second decision engine powered by OPA [1].
+In the [previous articles]({% post_url 2022-09-20-enter-opa %}), we established the critical need for agile policy management in real-time payment gateways and introduced Open Policy Agent (OPA) as the transformative solution. Now, we delve into the architectural decisions and implementation details that allowed Torpago to build a high-performance, sub-second decision engine powered by OPA [1].
 
 ## Design Decisions That Matter
 

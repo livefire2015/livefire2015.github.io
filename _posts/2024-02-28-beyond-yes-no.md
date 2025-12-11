@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Beyond Yes/No: Rich Decisions and Event-Driven Actions"
-date: 2025-12-10
+date: 2024-02-28
 categories: [fintech, opa, payment-gateway]
 ---
 
-_This is **Part 4** of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2025-12-10-speed-vs-complexity %}), [Part 2]({% post_url 2025-12-10-enter-opa %}), [Part 3]({% post_url 2025-12-10-architecture-deep-dive %}), [Part 5]({% post_url 2025-12-10-production-lessons %})._
+_This is **Part 4** of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2022-03-15-speed-vs-complexity %}), [Part 2]({% post_url 2022-09-20-enter-opa %}), [Part 3]({% post_url 2023-06-10-architecture-deep-dive %}), [Part 5]({% post_url 2025-11-05-production-lessons %})._
 
-In our journey so far, we've explored the critical need for agile policy management in real-time payments, introduced Open Policy Agent (OPA) as the solution, and delved into the architecture of our sub-second decision engine. Now, we move beyond simple "allow" or "deny" decisions to uncover one of OPA's most powerful features: the ability to generate **rich, metadata-driven decisions** that trigger intelligent, event-driven actions [1].
+In our journey so far, we've explored the [critical need for agile policy management]({% post_url 2022-03-15-speed-vs-complexity %}) in real-time payments, [introduced Open Policy Agent (OPA)]({% post_url 2022-09-20-enter-opa %}) as the solution, and delved into the [architecture of our sub-second decision engine]({% post_url 2023-06-10-architecture-deep-dive %}). Now, we move beyond simple "allow" or "deny" decisions to uncover one of OPA's most powerful features: the ability to generate **rich, metadata-driven decisions** that trigger intelligent, event-driven actions [1].
 
 ## Metadata-Driven Intelligence: The Power of #METADATA
 

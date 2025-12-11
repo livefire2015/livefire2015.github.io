@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Production Lessons: Sandbox Testing, Feedback Loops, and the Future"
-date: 2025-12-10
+date: 2025-11-05
 categories: [fintech, opa, payment-gateway]
 ---
 
-_This is **Part 5** (final) of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2025-12-10-speed-vs-complexity %}), [Part 2]({% post_url 2025-12-10-enter-opa %}), [Part 3]({% post_url 2025-12-10-architecture-deep-dive %}), [Part 4]({% post_url 2025-12-10-beyond-yes-no %})._
+_This is **Part 5** (final) of a five-part series on building a real-time payment gateway with Open Policy Agent (OPA). Read the series: [Part 1]({% post_url 2022-03-15-speed-vs-complexity %}), [Part 2]({% post_url 2022-09-20-enter-opa %}), [Part 3]({% post_url 2023-06-10-architecture-deep-dive %}), [Part 4]({% post_url 2024-02-28-beyond-yes-no %})._
 
-In this series, we've journeyed from the core challenges of real-time payments to the architectural depths of an OPA-powered decision engine and the elegance of event-driven actions. Now, we arrive at the crucial final stage: the lessons learned from running this system in production for over three years. This article shares our hard-won insights on zero-risk policy validation, dynamic learning through feedback loops, and our vision for the future of policy-as-code.
+In this series, we've journeyed from the [core challenges of real-time payments]({% post_url 2022-03-15-speed-vs-complexity %}) to the [architectural depths of an OPA-powered decision engine]({% post_url 2023-06-10-architecture-deep-dive %}) and the [elegance of event-driven actions]({% post_url 2024-02-28-beyond-yes-no %}). Now, we arrive at the crucial final stage: the lessons learned from running this system in production for over three years. This article shares our hard-won insights on zero-risk policy validation, dynamic learning through feedback loops, and our vision for the future of policy-as-code.
 
 ## Zero-Risk Policy Validation: The Policy Sandbox
 
